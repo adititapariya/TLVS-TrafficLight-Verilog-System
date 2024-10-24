@@ -1,2 +1,2 @@
-# TLVS: TrafficLight Verilog System
+# TLVS: TrafficLight Verilog System with Smart Parking
 
