@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Nov 23 16:26:36 2024
+# Process ID: 8252
+# Current directory: C:/Xilinx/Projects/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log Traffic_Light_Controller.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Traffic_Light_Controller.tcl -notrace
+# Log file: C:/Xilinx/Projects/project_1/project_1.runs/impl_1/Traffic_Light_Controller.vdi
+# Journal file: C:/Xilinx/Projects/project_1/project_1.runs/impl_1\vivado.jou
+# Running On        :LAPTOP-ADITI
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :11th Gen Intel(R) Core(TM) i5-1155G7 @ 2.50GHz
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8327 MB
+# Swap memory       :11274 MB
+# Total Virtual     :19602 MB
+# Available Virtual :4559 MB
+#-----------------------------------------------------------
+source Traffic_Light_Controller.tcl -notrace

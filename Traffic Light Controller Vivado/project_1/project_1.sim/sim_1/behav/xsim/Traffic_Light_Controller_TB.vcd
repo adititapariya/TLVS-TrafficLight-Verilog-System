@@ -1,0 +1,187 @@
+$date
+   Tue Nov 19 17:29:20 2024
+$end
+
+$version
+  2024.1
+  $dumpfile ("Traffic_Light_Controller_TB.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module Traffic_Light_Controller_TB $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var wire 3 # light_M1 [2:0] $end
+$var wire 3 $ light_S [2:0] $end
+$var wire 3 % light_MT [2:0] $end
+$var wire 3 & light_M2 [2:0] $end
+$scope module dut $end
+$var wire 1 ' clk $end
+$var wire 1 ( rst $end
+$var reg 3 ) light_M1 [2:0] $end
+$var reg 3 * light_S [2:0] $end
+$var reg 3 + light_MT [2:0] $end
+$var reg 3 , light_M2 [2:0] $end
+$var reg 4 - count [3:0] $end
+$var reg 3 . ps [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0"
+bx #
+bx $
+bx %
+bx &
+0'
+0(
+bx )
+bx *
+bx +
+bx ,
+bx -
+bx .
+$end
+
+#500000000000
+1!
+b1 #
+b100 $
+b100 %
+b1 &
+1'
+b1 )
+b100 *
+b100 +
+b1 ,
+b0 .
+
+#1000000000000
+0!
+1"
+0'
+1(
+b0 -
+
+#1500000000000
+1!
+1'
+
+#2000000000000
+0!
+0"
+0'
+0(
+
+#2500000000000
+1!
+1'
+b1 -
+
+#3000000000000
+0!
+0'
+
+#3500000000000
+1!
+1'
+b10 -
+
+#4000000000000
+0!
+0'
+
+#4500000000000
+1!
+1'
+b11 -
+
+#5000000000000
+0!
+0'
+
+#5500000000000
+1!
+1'
+b100 -
+
+#6000000000000
+0!
+0'
+
+#6500000000000
+1!
+1'
+b101 -
+
+#7000000000000
+0!
+0'
+
+#7500000000000
+1!
+1'
+b110 -
+
+#8000000000000
+0!
+0'
+
+#8500000000000
+1!
+1'
+b111 -
+
+#9000000000000
+0!
+0'
+
+#9500000000000
+1!
+b10 &
+1'
+b10 ,
+b0 -
+b1 .
+
+#10000000000000
+0!
+0'
+
+#10500000000000
+1!
+1'
+b1 -
+
+#11000000000000
+0!
+0'
+
+#11500000000000
+1!
+1'
+b10 -
+
+#12000000000000
+0!
+0'
+
+#12500000000000
+1!
+b1 %
+b100 &
+1'
+b1 +
+b100 ,
+b0 -
+b10 .
+
+#13000000000000
+0!
+0'
