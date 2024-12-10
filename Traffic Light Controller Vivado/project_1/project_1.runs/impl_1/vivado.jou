@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Sat Nov 23 16:27:43 2024
-# Process ID: 19132
+# Start of session at: Tue Dec 10 17:55:11 2024
+# Process ID: 22152
 # Current directory: C:/Xilinx/Projects/project_1/project_1.runs/impl_1
 # Command line: vivado.exe -log Traffic_Light_Controller.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Traffic_Light_Controller.tcl -notrace
 # Log file: C:/Xilinx/Projects/project_1/project_1.runs/impl_1/Traffic_Light_Controller.vdi
@@ -19,6 +19,6 @@
 # Host memory       :8327 MB
 # Swap memory       :11274 MB
 # Total Virtual     :19602 MB
-# Available Virtual :4617 MB
+# Available Virtual :3660 MB
 #-----------------------------------------------------------
 source Traffic_Light_Controller.tcl -notrace

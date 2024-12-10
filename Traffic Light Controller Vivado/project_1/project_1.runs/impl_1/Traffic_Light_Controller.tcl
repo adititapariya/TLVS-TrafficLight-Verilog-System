@@ -108,8 +108,6 @@ set_msg_config  -id {17-179}  -suppress
 set_msg_config  -id {17-179}  -suppress 
 set_msg_config  -id {17-179}  -suppress 
 set_msg_config  -id {17-179}  -suppress 
-set_msg_config  -id {17-179}  -suppress 
-set_msg_config  -id {17-179}  -suppress 
 
 OPTRACE "impl_1" START { ROLLUP_1 }
 OPTRACE "Phase: Write Bitstream" START { ROLLUP_AUTO }
@@ -120,8 +118,7 @@ set rc [catch {
   create_msg_db write_bitstream.pb
   set_param chipscope.maxJobs 1
   set_param checkpoint.writeSynthRtdsInDcp 1
-  set_param synth.incrementalSynthesisCache C:/Users/hp/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-19008-LAPTOP-ADITI/incrSyn
-  set_param xicom.use_bs_reader 1
+  set_param synth.incrementalSynthesisCache C:/Users/hp/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15540-LAPTOP-ADITI/incrSyn
   set_param runs.launchOptions { -jobs 2  }
   open_checkpoint Traffic_Light_Controller_routed.dcp
   set_property webtalk.parent_dir C:/Xilinx/Projects/project_1/project_1.cache/wt [current_project]

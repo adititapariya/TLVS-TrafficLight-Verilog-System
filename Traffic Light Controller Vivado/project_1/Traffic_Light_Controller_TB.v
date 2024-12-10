@@ -1,23 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 19.11.2024 17:22:56
-// Design Name: 
-// Module Name: Traffic_Light_Controller_TB
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
 module Traffic_Light_Controller_TB;
     // Declare input signals (reg type) for the testbench
@@ -30,7 +11,7 @@ module Traffic_Light_Controller_TB;
     wire [2:0] light_M2;   // Traffic light state for Main road 2
 
     // Instantiate the Traffic Light Controller module (Device Under Test - DUT)
-    Traffic_Light_Controller dut (
+    traffic_light_controller_sim dut (
         .clk(clk), 
         .rst(rst), 
         .light_M1(light_M1), 

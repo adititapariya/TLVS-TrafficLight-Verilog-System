@@ -5,5 +5,11 @@ Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-ERROR: [VRFC 10-3180] cannot find port 'rst' on this module [C:/Xilinx/Projects/project_1/Traffic_Light_Controller_TB.v:35]
-ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.traffic_light_controller_sim
+Compiling module xil_defaultlib.Traffic_Light_Controller_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Traffic_Light_Controller_TB_behav

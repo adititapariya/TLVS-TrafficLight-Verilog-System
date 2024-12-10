@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tfgg484-1" LaunchTime="1732359335" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Traffic_Light_Controller.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a35tfgg484-1" LaunchTime="1733833358" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Traffic_Light_Controller.dcp">
   <File Type="PA-TCL" Name="Traffic_Light_Controller.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Traffic_Light_Controller_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Traffic_Light_Controller_reports.tcl"/>
   <File Type="RDS-RDS" Name="Traffic_Light_Controller.vds"/>
   <File Type="RDS-UTIL" Name="Traffic_Light_Controller_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Traffic_Light_Controller_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Traffic_Light_Controller.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Traffic_Light_Controller_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Traffic_Light_Controller_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/Traffic_Light_Controller.v">

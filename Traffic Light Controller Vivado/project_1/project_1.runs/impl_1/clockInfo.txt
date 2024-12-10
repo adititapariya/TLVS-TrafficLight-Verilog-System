@@ -1,6 +1,6 @@
 -------------------------------------
 | Tool Version : Vivado v.2024.1
-| Date         : Sat Nov 23 16:27:02 2024
+| Date         : Tue Dec 10 17:54:21 2024
 | Host         : LAPTOP-ADITI
 | Design       : design_1
 | Device       : xc7a35t-fgg484-1--
