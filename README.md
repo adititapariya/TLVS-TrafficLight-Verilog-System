@@ -15,7 +15,7 @@ This project implements a **Traffic Light Controller** integrated with a **Smart
 ## **Software Used**
 1. **Vivado Design Suite 2024.1**: Used for HDL design, synthesis, and implementation.  
 2. **Icarus Verilog**: For writing and simulating Verilog code.  
-3. **GTKWave**: For waveform analysis.
+3. **GTKWave**: For waveform analysis and debugging.
 
 ---
 
